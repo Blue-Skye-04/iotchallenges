@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/47313b196d.js" crossorigin="anonymous"></script>
     <title>@yield('title','IoT Challenge')</title>
-    <meta name="author" content="Haris Humaidi">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="author" content="M Haris Humaidi">
 </head>
 <body>
     <nav>

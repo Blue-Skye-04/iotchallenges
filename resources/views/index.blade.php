@@ -3,7 +3,8 @@
 @section('title','IoT Challenge')
 
 @section('content')
-<div class="judul section">
+<div class="juduls container">
+    <div class="judul section">
         <div class="kiri">
             <img src="{{ asset('images/iconIoT.png') }}" alt="">
         </div>
@@ -11,8 +12,14 @@
             <h1>Sebelas Maret</h1>
             <h2>International IoT Challenge 2022</h2>
             <p>Coming soon!</p>
-            <button class="#about">More Information</button>
+            <a href="">
+                <button class="" type="button">
+                    Learn More <i class="fa fa-long-arrow-right ml-2"></i>
+                </button>
+            </a>
         </div>
+    </div>
+</div>
 </div>
 <div class="about section">
     <div class="container">
@@ -20,48 +27,66 @@
         <div class="kiri">
             <h1>About</h1>
             <p>The Covid-19 pandemic has changed the human lifestyle around the world. In everything limited, the internet is a technology that can be relied on to break through these limitations. Therefore, the Sebelas Maret International IoT Challenge 2021 was present. This competition’s theme is "IoT Innovation For Covid-19 Pandemic Recovery, “ held by the Faculty of Engineering Universitas Sebelas Maret Surakarta. We invite undergraduate students worldwide to participate in this competition by providing Internet of Things (IoT) ideas in dealing with the Covid-19 pandemic. Through the Sebelas Maret International IoT Challenge 2021, we hope that the resulting ideas can help deal with the Covid-19 pandemic in various sectors.</p>
-            <a href="/register">
-                <button class="register">Register!</button>
+            <a href="">
+                <button class="" type="button">
+                    Register <i class="fa fa-long-arrow-right ml-2"></i>
+                </button>
             </a>
         </div>
         <div class="kanan">
         </div>
     </div>
 </div>
-<div class="poster section">
-
-</div>
-<div class="terms section">
-    <div class="container">
-    
-        <div class="row py-5">
-            <div class="col-lg-9 mx-auto">
-                <div class="card shadow mb-4">
-                    <div class="card-body p-5">
-                        <h4 class="mb-4">Terms</h4>
-                        <!-- Unordered list -->
-                        <ul>
-                            <li class="mb-2">Participants are undergraduate students worldwide</li>
-                            <li class="mb-2">Each team consists of 3-5 students</li>
-                            <li class="mb-2">Each team consists of a leader and members</li>
-                            <li class="mb-2">Each team must include 1 lecturer-in-charge</li>
-                            <li class="mb-2">The team must come from the same university</li>
-                            <li class="mb-2">The team members can consist of various faculties or departments</li>
-                            <li class="mb-2">Each participant is only allowed to be in 1 team</li>
-                            <li class="mb-2">Each team only allowed to submit one title</li>
-                            <li class="mb-2">Participants must follow the timeline that has been determined</li>
-                            <li class="mb-2">The team that qualified for the Grand Final/Finalist Evaluation shall present the project through Zoom Cloud Meetings on May 19,2021</li>
-                            <li class="mb-2">Participants who do not eligible may disqualify</li>
-                            <li class="mb-2">The decision of the judges is final and cannot be changed</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+<div class="posters container py-5">
+    <h3 class="pb-3">Webinar and Awarding Session</h3>
+    <div class="poster section">
+        <div class="kiri">
+            <img src="images/poster_fix.jpeg" alt="">
+        </div>
+        <div class="kanan">
+            <h3>Innovation for Pandemic Recovery in Sustainable Society 5.0</h3>
+            <h5>Registration</h5>
+            <p>Register via .......</p>
+            <h5>Benefits</h5>
+            <p>📃 E-Certificate</p>
+            <h5>Term and Condition</h5>
+            <ol>
+                <li>Follow IG
+                    <a href="https://instagram.com/hmteuns" target="_blank">hmteuns</a>
+                    &
+                    <a href="https://instagram.com/semariot.uns" target="_blank">semariot</a>
+                </li>
+                <li>Upload Twibbon (
+                    <a href="https://twb.nz/twibbonsemariot2021" target="_blank">Twibbon</a>
+                    ) 
+                </li>
+            </ol>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h5>Event Details</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h5>For further information, please contact us</h5>
+            <ul>
+                <li>
+                    WhatsApp: 
+                    <a href="https://wa.me/6289693553019" target="_blank" class="text-blue-500">
+                        +62 89693553019
+                    </a> (Azalia)
+                </li>
+                <li>
+                    WhatsApp: 
+                    <a href="https://wa.me/6281326185668" target="_blank" class="text-blue-500">
+                        +62 81326185668
+                    </a> (Dheanera)
+                </li>
+                <li>
+                    Email: 
+                    <a href="mailto:iotlab@ft.uns.ac.id" target="_blank" class="text-blue-500">
+                        iotlab@ft.uns.ac.id
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
-</div>
-<div class="prize section">
-
 </div>
 <div class="timeline section">
     <div class="container">
@@ -115,6 +140,64 @@
             </div>
         </div>
 </div>
+<div class="terms section">
+    <div class="container">
+    
+        <div class="row py-5">
+            <div class="col-lg-9 mx-auto">
+                <div class="card shadow mb-4">
+                    <div class="card-body p-5">
+                        <h4 class="mb-4">Terms</h4>
+                        <!-- Unordered list -->
+                        <ul>
+                            <li class="mb-2">Participants are undergraduate students worldwide</li>
+                            <li class="mb-2">Each team consists of 3-5 students</li>
+                            <li class="mb-2">Each team consists of a leader and members</li>
+                            <li class="mb-2">Each team must include 1 lecturer-in-charge</li>
+                            <li class="mb-2">The team must come from the same university</li>
+                            <li class="mb-2">The team members can consist of various faculties or departments</li>
+                            <li class="mb-2">Each participant is only allowed to be in 1 team</li>
+                            <li class="mb-2">Each team only allowed to submit one title</li>
+                            <li class="mb-2">Participants must follow the timeline that has been determined</li>
+                            <li class="mb-2">The team that qualified for the Grand Final/Finalist Evaluation shall present the project through Zoom Cloud Meetings on May 19,2021</li>
+                            <li class="mb-2">Participants who do not eligible may disqualify</li>
+                            <li class="mb-2">The decision of the judges is final and cannot be changed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="prize section py-5">
+    <div class="container">
+        <h1>Prize</h1>
+        <div class="row text-center ">
+            <div class="col-xl-4 col-sm-6 mb-5 blok">
+                <div class="bg-white rounded shadow-sm py-5 px-4"><h1>1st</h1>
+                    <h5 class="mb-0">$1,000.00</h5><span class="small text-uppercase text-muted">(IDR 14,400,000.00)</span>
+                </div>
+            </div><!-- End -->
+            <div class="col-xl-4 col-sm-6 mb-5 blok">
+                <div class="bg-white rounded shadow-sm py-5 px-4"><h1>2nd</h1>
+                    <h5 class="mb-0">$850.00</h5><span class="small text-uppercase text-muted">(IDR 12,250,000.00)</span>
+                </div>
+            </div><!-- End -->
+            <div class="col-xl-4 col-sm-6 mb-5 blok">
+                <div class="bg-white rounded shadow-sm py-5 px-4"><h1>3rd</h1>
+                    <h5 class="mb-0">$700.00</h5><span class="small text-uppercase text-muted">(IDR 10,000,000.00)</span>
+                </div>
+            </div><!-- End -->
+        </div>
+        <div class="row text-center">
+            <h3>and, $70.00 for each favorite winners</h3>
+            <h4>(IDR 1,000,000.00)</h4>
+            <h5>+ e-certificate</h5>
+            
+        </div>
+    </div>
+</div>
+
 <div class="judges section">
     <div class="container py-5">
         <h1>Judges</h1>
@@ -167,22 +250,154 @@
         </div>
     </div>
 </div>
-<div class="faq section">
-
-</div>
-<div class="organizedby section">
+<div class="faq py-5">
     <div class="container">
-        <h1>Organized By</h1>
-        <div class="cardbox">
-
+        <div class="section row d-flex justify-content-center shadow mb-4">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h4 class="card-title m-b-0">FAQ</h4>
+                    </div>
+                    <ul class="list-style-none">
+                        <li class="d-flex no-block card-body"> 
+                            <div>
+                                <i class="fa fa-plus w-30px m-t-5"></i>
+                            </div>
+                            <div> 
+                                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">
+                                    What is IoT Challenge?
+                                </a> 
+                                <span class="text-muted">
+                                    An event for every undergraduate student around the world to share their ideas about the application of the Internet of Things (IoT) to find solutions for dealing with the Covid-19 Pandemic. 
+                                </span> 
+                            </div>
+                        </li>
+                        <li class="d-flex no-block card-body"> 
+                            <div>
+                                <i class="fa fa-plus w-30px m-t-5"></i>
+                            </div>
+                            <div> 
+                                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">
+                                    Why you should join the IoT Challenge?
+                                </a> 
+                                <span class="text-muted">
+                                    By participating in this activity, it means the students have contributed their best ideas related to IoT to be used as a solution in the Covid-19 Pandemic.
+                                </span> 
+                            </div>
+                        </li>
+                        <li class="d-flex no-block card-body"> 
+                            <div>
+                                <i class="fa fa-plus w-30px m-t-5"></i>
+                            </div>
+                            <div> 
+                                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">
+                                    The benefits for joining this event?
+                                </a> 
+                                <span class="text-muted">
+                                    - 1st Prize USD 1000 (IDR 14,400,000) + e-certificate<br>
+                                    - 2nd Prize USD 850 (IDR 12,250,000) + e-certificate<br>
+                                    - 3rd Prize USD 700 (IDR 10,000,000) + e-certificate<br>
+                                    - Special award Prize USD 70 (IDR 1,000,000) + e-certificate<br>
+                                    - Every participants will receive e-certificate
+                                </span> 
+                            </div>
+                        </li>
+                        <li class="d-flex no-block card-body"> 
+                            <div>
+                                <i class="fa fa-plus w-30px m-t-5"></i>
+                            </div>
+                            <div> 
+                                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">
+                                    Can register more than 1 team?
+                                </a> 
+                                <span class="text-muted">
+                                    Each participants can only register in 1 team
+                                </span> 
+                            </div>
+                        </li>
+                        <li class="d-flex no-block card-body"> 
+                            <div>
+                                <i class="fa fa-plus w-30px m-t-5"></i>
+                            </div>
+                            <div> 
+                                <a href="#" class="m-b-0 font-medium p-0" data-abc="true">
+                                    Assessment Criteria?
+                                </a> 
+                                <span class="text-muted">
+                                    - Innovation and originality (30%)<br>
+                                    - Impact (30%)<br>
+                                    - Technical feasibility (30%)<br>
+                                    - Document and Short Video (10%)
+                                </span> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<div class="sponsors section">
+<div class="organizedby section py-5">
     <div class="container">
-        <h1>Sponsors</h1>
-        <div class="cardbox">
-
+    <h2 class="font-weight-bold mb-2">Organized By</h2>
+    <div class="row pb-5 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded">
+            <div class="card-body p-0"><img src="/images/Geo.png" alt="" class="w-100 card-img-top">
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded">
+            <div class="card-body p-0"><img src="/images/Dendro.png" alt="" class="w-100 card-img-top">
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded">
+            <div class="card-body p-0"><img src="/images/Hydro.png" alt="" class="w-100 card-img-top">
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded">
+            <div class="card-body p-0"><img src="/images/Anemo.png" alt="" class="w-100 card-img-top">
+            </div>
+            </div>
+        </div>  
+    </div>
+</div>
+</div>
+<div class="sponsors section py-5">
+    <div class="container">
+        <h2 class="font-weight-bold mb-2">Sponsors</h2>
+            <div class="row pb-5 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                    <div class="card shadow-sm border-0 rounded">
+                        <div class="card-body p-0"><img src="/images/Pyro.png" alt="" class="w-100 card-img-top">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                    <div class="card shadow-sm border-0 rounded">
+                        <div class="card-body p-0"><img src="/images/Cryo.png" alt="" class="w-100 card-img-top">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                    <div class="card shadow-sm border-0 rounded">
+                        <div class="card-body p-0"><img src="/images/Electro.png" alt="" class="w-100 card-img-top">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,4 +1,6 @@
-
+a{
+    text-decoration: none;
+}
 
 /*============= Nav =============*/
 nav{
@@ -12,7 +14,7 @@ nav{
     flex-direction: row;
     align-items: center;
 }
-h1,h2{
+h1,h2,h3,h4{
     font-family: 'Montserrat', sans-serif;
 }
 p,li{
@@ -26,21 +28,44 @@ p,li{
 }
 .kanan{
     width:50%;
+}
+.judul .kanan{
     text-align:right;
     padding-right: 5vw;
+}
+
+button {
+	border: 1px solid #272e48;
+    border-radius: 40px;
+    color: #272e48;
+    box-shadow: none;
+    text-shadow: none;
+    padding: .3rem .8rem;
+    background: transparent;
+    transition: background-color 0.25s;
+    outline: none
 }
 /*============= About =============*/
 .about{
     padding: 5vw;
-    height:100%;;
+    height:100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     color:white;
     background: #272e48;
 }
-
-
+.about button{
+    border: 1px solid white;
+    border-radius: 40px;
+    color: white;
+    box-shadow: none;
+    text-shadow: none;
+    padding: .3rem .8rem;
+    background: transparent;
+    transition: background-color 0.25s;
+    outline: none
+}
 /* ===== Term ===== */
 .terms .card{
     color:white;
@@ -261,4 +286,85 @@ p,li{
     background: #ddd;
     text-decoration: none;
     color: #555;
+}
+
+/*============= Poster =============*/
+.poster{
+    display: flex;
+    flex-direction: row;
+}
+.poster .kiri img{
+    width: 100%;
+}
+.poster .kanan{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.poster ul li{
+    text-align: left;
+}
+
+/*============= FAQ =============*/
+.faq{
+    background-color: #272e48;
+}
+
+.faq .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid transparent;
+    border-radius: 25px;
+}
+
+.faq .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.faq .card .card-title {
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+.faq ul.list-style-none li {
+    list-style: none
+}
+
+.faq ul.list-style-none li a {
+    color: #673AB7;
+    padding: 8px 0px;
+    display: block;
+    text-decoration: none
+}
+
+.m-t-5 {
+    margin-top: 5px
+}
+
+.w-30px {
+    width: 30px
+}
+
+/* ============ Prize ============ */
+.prize{
+    background-color: #272e48;
+    color: white;
+}
+.prize .blok{
+    color: #272e48;
 }
