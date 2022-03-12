@@ -173,17 +173,17 @@
     <div class="container">
         <h1>Prize</h1>
         <div class="row text-center ">
-            <div class="col-xl-4 col-sm-6 mb-5 blok">
+            <div class="col-xl-4 col-sm-12 mb-5 blok">
                 <div class="bg-white rounded shadow-sm py-5 px-4"><h1>1st</h1>
                     <h5 class="mb-0">$1,000.00</h5><span class="small text-uppercase text-muted">(IDR 14,400,000.00)</span>
                 </div>
             </div><!-- End -->
-            <div class="col-xl-4 col-sm-6 mb-5 blok">
+            <div class="col-xl-4 col-sm-12 mb-5 blok">
                 <div class="bg-white rounded shadow-sm py-5 px-4"><h1>2nd</h1>
                     <h5 class="mb-0">$850.00</h5><span class="small text-uppercase text-muted">(IDR 12,250,000.00)</span>
                 </div>
             </div><!-- End -->
-            <div class="col-xl-4 col-sm-6 mb-5 blok">
+            <div class="col-xl-4 col-sm-12 mb-5 blok">
                 <div class="bg-white rounded shadow-sm py-5 px-4"><h1>3rd</h1>
                     <h5 class="mb-0">$700.00</h5><span class="small text-uppercase text-muted">(IDR 10,000,000.00)</span>
                 </div>
